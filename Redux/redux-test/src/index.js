@@ -30,3 +30,8 @@ store.dispatch(increaseNextPage());
 store.dispatch(editTimeline({id:2, desc:'리덕스 너무너무너무 좋아용'}))
 store.dispatch(removeTimeline({id:1}));
 
+store.dispatch(addFriend({id:1, name:'아이유'}));
+store.dispatch(addFriend({id:2, name:'손나은'}));
+
+store.dispatch(editFriend({id:2, name:'배수지'}))
+store.dispatch(removeFriend({id:1}));
